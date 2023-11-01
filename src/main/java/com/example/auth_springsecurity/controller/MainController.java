@@ -16,5 +16,6 @@ public class MainController {
     @GetMapping("/admin")
     public String admin(){
         return "Здравствуйте администратор";
+
     }
 }
