@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/home")
     public String home(){
-        return "Здарова ебать";
+        return "Здравствуйте гости";
     }
     @GetMapping("/user")
     public String user(){
-        return "Здарова хуйло";
+        return "Здравствуйте юзер";
     }
     @GetMapping("/admin")
     public String admin(){
-        return "Здравствуйте";
+        return "Здравствуйте администратор";
     }
 }
